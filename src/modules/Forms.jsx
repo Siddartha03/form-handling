@@ -265,7 +265,7 @@ const Forms = () => {
               }}
             >
               <Typography variant="h4" fontWeight={400}>
-                Student Informatio
+                Student Information
               </Typography>
               <Divider sx={{ my: 1.6 }} />
               <Grid container spacing={2}>
