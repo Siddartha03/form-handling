@@ -1,0 +1,23 @@
+.form-select-text-field {
+  .MuiTextField-root:nth-child(1) {
+    .MuiOutlinedInput-notchedOutline {
+      border-right-color: #0000003b;
+      border-radius: 4px 0 0 4px;
+    }
+  }
+
+  .MuiTextField-root:nth-child(2) {
+    .MuiSelect-select {
+      overflow: inherit;
+    }
+    .MuiOutlinedInput-notchedOutline {
+      border-left: none;
+      border-radius: 0 4px 4px 0;
+    }
+  }
+
+  hr {
+    border: 1px solid #0000003b;
+    margin: 4px 0;
+  }
+}
